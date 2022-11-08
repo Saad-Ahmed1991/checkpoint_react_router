@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Freehand&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+.App {
+  text-align: center;
+  background-color: rgb(249, 249, 249);
+  background-image: url("http://4liberty.eu/wp-content/uploads/2021/09/film-background-1334067869u9d.jpg");
+  background-size: cover;
+  font-family: 'Roboto', sans-serif !important;
+  ;
+}
+
+.container{
+  width: 90vw;
+}
+.mynav{
+  width: 90vw;
+}
+.navbar1{
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+}
+
+.logo{
+  width: 40px;
+  aspect-ratio: 1;
+  margin-right: 60px;
+}
+.nav_title{
+  font-weight: 900;
+  font-family: 'Freehand', cursive;
+  font-size: 30px !important;
+  color: white!important;
+  margin-left: 20px;
+  cursor: default;
+
+}
+.search_add{
+  display: flex;
+  gap: 10px;
+}
+.Id_input{
+width: 50px;
+}
+.btn_add_new_movie,.btn_search{
+  color: rgb(99, 99, 99) !important;
+  border: none!important;
+  background-color: white !important;
+  width: 200px !important;
+  height: 38px !important;
+  font-weight: bold !important;
+
+}
+.btn_search{
+ margin-left: 10px;
+}
+.Add_new_movie{
+  color: white;
+  text-decoration: none;
+}
+.Add_new_movie:hover{
+  color: white;
+  text-decoration: none;
+}
+
+
+.white{
+  color: white !important;
+  font-size: 18px !important;
+}
+.white:hover{
+  text-decoration: underline;
+  scale: 1.1;
+}
+
+
+
+.rating_input{
+  width: 60px;
+}
+
+.card{
+  width: 350px !important;
+  margin: 10px;
+  padding: 5px;
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+.cardbody{
+  display: flex ;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px;
+}
+
+.cardimg{
+  height: 350px !important;
+  border-radius: 10px;
+}
+.cardimg:hover{
+  scale: 1.1;
+  transition: 500ms ease-in-out;
+
+}
+.movie_list{
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin-top: 30px;
+  padding-top: 20px;
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+
+}
+.linkbtn{
+  box-sizing: content-box;
+  border: 2px solid black;
+  border-radius: 100vw !important;
+  width: 100px;
+  padding: 5px;
+  text-decoration: none;
+  color: black;
+}
+
+.linkbtn:hover{
+  scale: 1.02;
+  color:black;
+}
+
+.rating{
+  margin-bottom: 20px;
+}
+.movieinfo{
+  width: 90vw; 
+  height: 50vw;
+  margin-inline: auto;
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  border: 2px solid black;
+  border-radius: 20px;
+  box-shadow: rgba(119, 32, 32, 0.3) 0px 19px 38px, rgba(160, 10, 10, 0.22) 0px 15px 12px;
+}
+.movieinfo h1 {
+  color: black;
+  -webkit-text-fill-color: white; /* Will override color (regardless of order) */
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: black;
+  font-size: 5em;
+}
+.movieinfo p {
+  font-size: 2em;
+  -webkit-text-fill-color: white; /* Will override color (regardless of order) */
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: black;
+}
+
