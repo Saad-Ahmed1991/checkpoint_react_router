@@ -112,7 +112,6 @@ function Modal1({ AddMovie, data }) {
           <Button
             onClick={() => {
               if (
-                movie.id === 0 ||
                 movie.title === "" ||
                 movie.description === "" ||
                 movie.posterUrl === "" ||
